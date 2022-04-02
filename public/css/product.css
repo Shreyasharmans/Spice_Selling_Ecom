@@ -1,0 +1,135 @@
+/*products page*/
+body{
+    background-color: white;
+}
+.flexxx{
+    max-width:1255px;
+    margin:auto;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:30px;
+}
+#ip{
+    width:90px;
+    height:50px;
+    font-size:25px;
+}
+.im{
+   width:22%;
+   min-height:340px;
+    background-color: azure;
+    padding:6px;
+    border-radius:10px;
+        box-shadow: 0 5px 15px rgba(9, 94, 35, 0.8);
+    margin-top:50px;
+    
+     border:2px solid grey;
+    
+} 
+#cur12{
+    font-size:27px;
+    font-weight: bold;    
+    }
+#imm{
+    border:3px solid white;
+    box-shadow: 0 5px 15px rgba(0,0,0,.8);
+    max-width:100%;
+    margin-right:23%;
+}
+#imm:hover{
+    border:3px solid blue;
+}
+.inpp2{
+    width:15%;
+    height:50px;
+    font-size: 30px;
+    text-align: left;
+    box-sizing: border-box;
+     border-color:black;
+    box-shadow: 0px 0px 5px 4px rgb(27, 131, 96);
+    border-radius:2px;
+}
+.bodd{
+    background-color: white;
+   
+}
+
+footer{
+    background: url("../image/background.jpg"); 
+    background-blend-mode:difference;
+}
+.contain{
+   padding-top:20px;
+    max-width:1100px;
+    min-height:135px;
+   display:flex;
+   flex-direction: row;
+   justify-content:space-around;
+   flex-wrap:wrap;
+   align-items: flex-start;
+   overflow: hidden;
+   margin:auto; 
+   padding-bottom:50px;
+}
+.foot{   
+   padding:2px;
+   color:black;
+   margin-top:10px;
+   margin-bottom:10px;
+   text-align: center;
+   }
+#fo{
+   padding-top:10px;
+ width:440px;
+   height:30px; 
+   font-size:14px;
+}
+#fo1{
+ width:50px;
+   height:50px;
+   margin-right:30px;
+   margin-bottom:20px;
+}
+#fo2{
+ width:360px;
+ height:120px;
+   text-align:left;
+   padding-left:30px;
+}
+#fontt{
+   font-size: 20px;
+}
+#mySearch{
+   width:90%;
+   height:35px;
+   border:2px solid black;
+   padding-left:20px;
+   margin-top: 5px;
+   margin-bottom:7px;
+   background:none;
+   color:black;
+   
+}
+#mySearch:hover{
+   border:4px solid black;
+}
+#mySearch:visited{
+   border:2px solid red;
+}
+#btn{
+  width:90%; 
+   height:43px;
+   font-family:Brush Script MT;
+   font-size:30px;
+   color:white;
+   background-color: black;
+   text-align: center;
+   margin-top:5px;
+   padding-bottom:4px;
+   box-shadow: 2px 3px 7px black;
+}
+#btn:hover{
+   color:hotpink;
+}

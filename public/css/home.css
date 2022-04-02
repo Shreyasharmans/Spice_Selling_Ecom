@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+    *{
+        margin:0;        
+        font-family:cursive;
+    }
+    .black1{
+        background-color: black;
+    }
+    .cont1{
+        max-width:960px;
+        min-height:80vh;
+        display:flex;
+        flex-wrap: wrap;  
+        flex-direction:row;  
+        justify-content:space-between;
+        margin:auto;
+        padding-top:30px;        
+    }
+    .left1{
+        width:650px;
+        background-color: #abc;
+        background: url("../image/Spice.jpg");
+        background-size: 100% 100%;        
+    }
+    .right1{
+        width:300px;
+        background-color: #678;
+        background: url("../image/chef.jpg");
+        background-size: 100% 100%;
+    }
+    .disc1{
+        width:12em;
+        height:12em;
+        border-radius:50%;
+        background-color: coral;
+        text-align:center;
+        border:2px solid #ffab61;
+        border-width: 6px;        
+        margin-right:-20px;
+        left:0px;       
+        transform: translate(560px,100px);
+    }
+    #cur1{
+        font-family:Brush Script MT;
+        font-size:30px;
+    }
+
+
+.container1{
+    position: relative;
+    max-width:960px;
+    padding:0 2rem;
+    margin: 170px auto;
+    margin-bottom: -25px;
+    display:flex;
+    float:center;
+ }
+
+
+
+
+.flexcontainer1{
+    max-width:960px;
+    min-height:60px;
+    display:flex;
+    flex-direction: row;
+    background-color:black;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    align-items: flex-start;
+    overflow: hidden;
+    margin:auto;
+     margin-bottom:-15px;
+    
+   }
+.item1{
+    width:310px;
+    height:40px;
+    background-color:black;
+    padding:0px;
+    margin-top:10px;
+    margin-bottom:10px;
+    text-align: center;
+    }
+#hrr1{
+    width:93%;
+    margin-top:9px;
+    margin-left:10px;
+    margin-right: 10px;
+    height:10px;
+    border: 0;
+    border-bottom: 4px dotted gainsboro;   
+    
+}
+#idd1{
+    padding-top:15px;
+    font-size: 20px;
+    color:white;
+}
+.flexcontain1{
+    max-width:960px;
+    min-height:135px;
+    display:flex;
+    flex-direction: row;
+    background-color:black;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    align-items: flex-start;
+    overflow: hidden;
+    margin:auto;
+   
+    
+   }
+.item11{
+    width:310px;
+    min-height:120px;
+    background-color:black;
+    padding:0px;
+    color:white;
+    margin-top:10px;
+    margin-bottom:10px;
+    text-align: center;
+    }
+p{
+    margin-top:9px;
+}
+#id1{
+    color:yellowgreen;
+    font-size:20px;
+}
+
+
+@media (max-width:1040px){s
+         .container1{
+             position: fixed;
+             width:100%;
+             height:70px;
+               background-color:white;
+             margin-top:115px;
+               z-index:10000;
+         }
+         .hamburger-menu{
+             display: flex;
+             }
+         #check{
+             display: block;
+         }
+            .nav-btn{
+             position:fixed;
+             height:calc(100vh-8.5rem);
+             top:8.5rem;
+             left:0;
+                bottom: 0rem;
+            padding-top:1rem;
+             width:100%;
+             background-color:black;
+             color:white;
+             flex-direction: column;
+             align-items: center;
+             justify-content: space-between;
+             overflow-x: hidden;
+             overflow-y: auto;
+             transform: translateX(100%);
+             transition: .65s;
+                text-align: center;
+              
+         }
+         #check:checked ~ .nav-btn{
+             transform: translateX(0);
+         }
+         .nav-links{
+             flex:initial;
+             width:100%;
+             }
+         ul{
+             flex-direction:column;
+             
+         }
+         .anchor{
+              background-color: black;
+             color: white;
+             width:100%;
+             line-height: 1;
+             text-align:center;
+             padding: 1.6rem;
+         }
+         .anchor:hover{
+             
+             color: orange;
+         }
+         .nav-links > a >i{
+             font-size:5rem;
+             transform: rotate(-90deg);
+             transition: .6s;
+         }
+         #ad1{
+             color:greenyellow;
+         }
+         .lii{
+             width: 100%;
+         }
+         
+         
+     .cont1{
+        max-width:90%;
+         margin-top:150px;
+         
+        }
+    .left1{
+        width:100%;
+        
+        margin-bottom:2%;
+     
+    }
+    .right1{
+        width:100%;
+    }
+    .disc1{
+        width:11em;
+        height:11em;
+        border-radius:50%;        
+        top:100%;       
+        left:-1em;
+        padding-top:-30px;
+        z-index:500;
+        transform: translate(-20px,300px);
+         } 
+        #cur1{
+        font-size:25px;
+    }
+    }
+@media (min-width:635px) and (max-width:999px){
+
+    .item1{
+       width:500px; 
+    }
+}
+
